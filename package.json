@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier --write \"src/**/*.{js,jsx}\""
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/nimash3eshan/Adopt-Me/issues"
   },
-  "homepage": "https://github.com/nimash3eshan/Adopt-Me#readme"
+  "homepage": "https://github.com/nimash3eshan/Adopt-Me#readme",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
 }
